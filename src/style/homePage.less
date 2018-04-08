@@ -1,0 +1,90 @@
+div {
+    font-family: 微软雅黑;
+}
+.colorGrey {
+    color: #ababab;
+}
+.colorBlue {
+    color: #addcfb;
+}
+.colorRed {
+    color: #fabfcd;
+}
+.colorYellow {
+    color: #fbdd94;
+}
+.colorTheme {
+}
+
+
+.testBack{
+    background: #1d90e6;
+    min-height: 10px;
+}
+@colorTheme: #00c9b5;
+.flexGrow {
+    flex-grow: 1;
+}
+
+.padding-20px {
+    padding: 20px;
+}
+
+.small-icon {
+    width: 5px;
+    height: inherit;
+    background: @colorTheme;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.actionBox {
+    margin-top: 20px;
+    padding: 20px;
+    .number {
+        font-size: 40px;
+    }
+    .properFont {
+
+        font-size: 20px;
+        &:nth-child(2) {
+            font-weight: bold;
+        }
+    }
+
+    i {
+        font-size: 40px;
+    }
+    .el-row {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+}
+
+.messageBox {
+.el-card{
+    border: none;
+    box-shadow: none;
+}
+    .cardHeader {
+        display: flex;
+        margin: -10px;
+        span {
+            display: flex;
+            align-items: center;
+        }
+    }
+    .messageBox-content{
+        .el-row{
+            margin-bottom: 10px;
+        }
+    }
+    .colorGrey {
+        color: #717171;
+    }
+}
