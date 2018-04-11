@@ -48,23 +48,23 @@
                         <el-row class="">
                             <el-col span="12">
                                 <el-row class="colorGrey">预期合同(份)</el-row>
-                                <el-row class=" colorYellow">0</el-row>
+                                <el-row class=" colorYellowDarken">0</el-row>
 
                             </el-col>
                             <el-col span="12">
                                 <el-row class="colorGrey">中断合同(份)</el-row>
-                                <el-row class=" colorYellow">0</el-row>
+                                <el-row class=" colorYellowDarken">0</el-row>
                             </el-col>
                         </el-row>
                         <el-row class="">
                             <el-col span="12">
                                 <el-row class="colorGrey">逾期待收(元)</el-row>
-                                <el-row class=" colorYellow">0.00</el-row>
+                                <el-row class=" colorYellowDarken">0.00</el-row>
 
                             </el-col>
                             <el-col span="12">
                                 <el-row class="colorGrey">逾期待付(元)</el-row>
-                                <el-row class=" colorYellow">0.00</el-row>
+                                <el-row class=" colorYellowDarken">0.00</el-row>
                             </el-col>
                         </el-row>
                     </div>
@@ -83,22 +83,22 @@
                         <el-row type="flex">
                             <div class="colorGrey">履约中合同总数</div>
                             <div class="flexGrow"></div>
-                            <div class=" colorYellow">23份</div>
+                            <div class=" colorYellowDarken">23份</div>
                         </el-row>
                         <el-row type="flex">
                             <div class="colorGrey">本月新增合同数</div>
                             <div class="flexGrow"></div>
-                            <div class=" colorYellow">4份</div>
+                            <div class=" colorYellowDarken">4份</div>
                         </el-row>
                         <el-row type="flex">
                             <div class="colorGrey">本月到期合同数</div>
                             <div class="flexGrow"></div>
-                            <div class=" colorYellow">6份</div>
+                            <div class="colorRedDarken">6份</div>
                         </el-row>
                         <el-row type="flex">
                             <div class="colorGrey">履约中断合同数</div>
                             <div class="flexGrow"></div>
-                            <div class=" colorYellow">1份</div>
+                            <div class=" colorYellowDarken">1份</div>
                         </el-row>
 
 

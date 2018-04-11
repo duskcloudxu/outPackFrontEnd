@@ -1,0 +1,84 @@
+.flexGrow {
+    flex-grow: 1;
+}
+.flexVerticalCenter{
+    align-items: center;
+}
+div{
+    font-family: 微软雅黑;
+}
+.flex {
+    display: flex;
+}
+.marginTop_10px{
+    margin-top: 10px;
+}
+.marginLeft_5px{
+    margin-left: 5px;
+}
+
+.fontBig{
+    font-size:19px;
+}
+
+.fontSmall{
+    font-size:15px;
+}
+@colorBlue: #4ba8f3;
+@colorBlueDarken: darken(@colorBlue, 10%);
+.contentBox {
+    padding: 20px;
+    .searchButton {
+        background: @colorBlue !important;
+        color: white !important;
+    }
+    .upperNav {
+        margin-top: 10px;
+        display: flex;
+        .el-radio-button {
+            .el-radio-button__inner {
+                &:active {
+
+                }
+            }
+            &:first-child {
+                border-bottom-left-radius: 0px;
+            }
+            &:last-child {
+                border-bottom-right-radius: 0px;
+
+            }
+
+        }
+    }
+    .contractContent {
+        margin-top: -35px;
+        background: #e2e2e2;;
+        padding: 20px;
+        .el-card {
+            .el-card__body {
+                padding: 0px;
+                .imgContainer {
+                    background: @colorBlue;
+                    padding: 10px;
+                    .Container {
+                        position: relative;
+                        overflow: hidden;
+                        height: 200px;
+                        .image {
+                            position: absolute;
+                            width: 100%;
+                        }
+                    }
+                }
+                .middleBox{
+                    padding: 20px;
+                    border-bottom: grey 1px solid;
+                }
+                .downBox{
+                    padding: 20px;
+                }
+            }
+        }
+    }
+}
