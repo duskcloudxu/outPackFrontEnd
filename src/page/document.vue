@@ -168,7 +168,7 @@
                 :show-close='false'
                 :fullscreen="true"
                 :before-close="handleClose">
-                <img src="../image/contract.jpg" alt="">
+                <img src="../image/contract.jpg" alt="" style="width: 100%">
                 <span slot="footer" class="dialog-footer">
                     <el-button type="primary" @click="dialogVisible = false">确 定</el-button>
                 </span>
