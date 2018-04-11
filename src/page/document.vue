@@ -47,7 +47,7 @@
                         <el-card>
                             <div class="imgContainer">
                                 <div class="Container">
-                                    <img src="../image/contract.jpg" class="image">
+                                    <img src="../image/contract.jpg"  @click="dialogVisible = true" class="image">
                                 </div>
                             </div>
                             <div class="middleBox">
@@ -61,8 +61,8 @@
                                 </div>
                             </div>
                             <div class="downBox flex">
-                                <a href="" class="fontSmall">编辑</a>
-                                <a href="" class="fontSmall marginLeft_5px">下载</a>
+                                <router-link to="vueEdit" class="fontSmall">编辑</router-link>
+                                <router-link to="vueEdit" class="fontSmall marginLeft_5px">下载</router-link>
                                 <div class="flexGrow"></div>
                                 <div class="fontBig">更新时间:XXXX</div>
 
@@ -73,7 +73,7 @@
                         <el-card>
                             <div class="imgContainer">
                                 <div class="Container">
-                                    <img src="../image/contract.jpg" class="image">
+                                    <img src="../image/contract.jpg"  @click="dialogVisible = true"  class="image">
                                 </div>
                             </div>
                             <div class="middleBox">
@@ -87,8 +87,8 @@
                                 </div>
                             </div>
                             <div class="downBox flex">
-                                <a href="" class="fontSmall">编辑</a>
-                                <a href="" class="fontSmall marginLeft_5px">下载</a>
+                                <router-link to="vueEdit" class="fontSmall">编辑</router-link>
+                                <router-link to="vueEdit" class="fontSmall marginLeft_5px">下载</router-link>
                                 <div class="flexGrow"></div>
                                 <div class="fontBig">更新时间:XXXX</div>
 
@@ -101,7 +101,7 @@
                         <el-card>
                             <div class="imgContainer">
                                 <div class="Container">
-                                    <img src="../image/contract.jpg" class="image">
+                                    <img src="../image/contract.jpg"  @click="dialogVisible = true" class="image">
                                 </div>
                             </div>
                             <div class="middleBox">
@@ -115,8 +115,8 @@
                                 </div>
                             </div>
                             <div class="downBox flex">
-                                <a href="" class="fontSmall">编辑</a>
-                                <a href="" class="fontSmall marginLeft_5px">下载</a>
+                                <router-link to="vueEdit" class="fontSmall">编辑</router-link>
+                                <router-link to="vueEdit" class="fontSmall marginLeft_5px">下载</router-link>
                                 <div class="flexGrow"></div>
                                 <div class="fontBig">更新时间:XXXX</div>
 
@@ -127,7 +127,7 @@
                         <el-card>
                             <div class="imgContainer">
                                 <div class="Container">
-                                    <img src="../image/contract.jpg" class="image">
+                                    <img src="../image/contract.jpg"  @click="dialogVisible = true"  class="image">
                                 </div>
                             </div>
                             <div class="middleBox">
@@ -141,16 +141,16 @@
                                 </div>
                             </div>
                             <div class="downBox flex">
-                                <a href="" class="fontSmall">编辑</a>
-                                <a href="" class="fontSmall marginLeft_5px">下载</a>
+                                <router-link to="/vueEdit"  class="fontSmall">编辑</router-link>
+                                <router-link to="vueEdit" class="fontSmall marginLeft_5px">下载</router-link>
                                 <div class="flexGrow"></div>
                                 <div class="fontBig">更新时间:XXXX</div>
-
                             </div>
                         </el-card>
                     </el-col>
                 </el-row>
             </el-row>
+
         </div>
         <el-row type="flex" justify="center">
             <div class="flex flexVerticalCenter fontSmall">共6259条</div>
@@ -160,7 +160,22 @@
                     :total="1000">
                 </el-pagination>
             </div>
+            <el-button type="text">点击打开 Dialog</el-button>
+            <el-dialog
+                title="合同预览"
+                :visible.sync="dialogVisible"
+                width="50%"
+                :show-close='false'
+                :fullscreen="true"
+                :before-close="handleClose">
+                <img src="../image/contract.jpg" alt="">
+                <span slot="footer" class="dialog-footer">
+                    <el-button type="primary" @click="dialogVisible = false">确 定</el-button>
+                </span>
+            </el-dialog>
         </el-row>
+
+
     </div>
 </template>
 
@@ -174,8 +189,19 @@
         data() {
             return {
                 tabPosition: 'top',
-                currentDate: new Date()
+                currentDate: new Date(),
+                dialogVisible: false
             };
+        },
+        methods: {
+            handleClose(done) {
+                this.$confirm('确认关闭？')
+                    .then(_ => {
+                        done();
+                    })
+                    .catch(_ => {
+                    });
+            }
         }
     }
 </script>
