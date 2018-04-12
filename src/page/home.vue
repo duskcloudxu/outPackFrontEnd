@@ -47,7 +47,7 @@
                     <div class="messageBox-content">
                         <el-row class="">
                             <el-col span="12">
-                                <el-row class="colorGrey">预期合同(份)</el-row>
+                                <el-row class="colorGrey">逾期合同(份)</el-row>
                                 <el-row class=" colorYellowDarken">0</el-row>
 
                             </el-col>
@@ -69,8 +69,8 @@
                         </el-row>
                     </div>
                 </el-card>
-                <div class="QRBox flex">
-                    <img src="../image/FisrtQRcode.png" class="QRcode" alt="">
+                <div class="QRBox flex marginLeft_80px">
+                    <img src="../image/FisrtQRcode.png" class="QRcode " alt="">
                     <div class="describe">
                         <div class="up colorGrey flex flexVerticalCenter">
                             <img src="../image/phone.png" class="icon" alt="">下载App
@@ -114,8 +114,8 @@
 
                     </div>
                 </el-card>
-                <div class="QRBox flex marginTop_28px">
-                    <img src="../image/SecondQRcode.png" class="QRcode" alt="">
+                <div class="QRBox flex marginTop_28px marginRight_10px">
+                    <img src="../image/SecondQRcode.png" class="QRcode " alt="">
                     <div class="describe">
                         <div class="up colorGrey flex flexVerticalCenter">
                             <img src="../image/wechat.png" class="icon" alt="">关注微信公众号
