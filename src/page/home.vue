@@ -35,7 +35,7 @@
                 </el-col>
             </el-row>
         </div>
-        <el-row :gutter="20" class="padding-20px messageBox">
+        <el-row :gutter="60" class="padding-100px messageBox">
             <el-col span="12">
                 <el-card class="box-card">
                     <div slot="header" class="clearfix cardHeader">
@@ -93,7 +93,7 @@
                         <el-row type="flex">
                             <div class="colorGrey">本月到期合同数</div>
                             <div class="flexGrow"></div>
-                            <div class="colorRedDarken">6份</div>
+                            <div class="colorYellowDarken">6份</div>
                         </el-row>
                         <el-row type="flex">
                             <div class="colorGrey">履约中断合同数</div>
