@@ -24,7 +24,7 @@
                         <el-menu-item index="">已拒签</el-menu-item>
                         <el-menu-item index="">草稿箱</el-menu-item>
 					</el-submenu>
-                    <el-submenu index="4">
+                    <el-submenu index="5">
                         <template slot="title"><i class="el-icon-setting"></i>账号设置</template>
                     </el-submenu>
 
