@@ -48,12 +48,14 @@
 				</keep-alive>
 			</el-col>
 		</el-row>
-  	</div>
+    </div>
 </template>
 
 <script>
+    import ElCol from "element-ui/packages/col/src/col";
     export default {
-		computed: {
+        components: {ElCol},
+        computed: {
 			defaultActive: function(){
 				return this.$route.path.replace('/', '');
 			}

@@ -26,11 +26,13 @@
                 </el-col>
                 <el-col span="4" offset="10" class="flex">
                     <div class="flexGrow"></div>
-                    <el-button class="is-plain padding_5px " >
-                        <div class="flex flexVerticalCenter">  <img class="icon" src="../image/upload.png">&nbsp;上传文件</div>
+                    <el-button class="is-plain padding_5px ">
+                        <div class="flex flexVerticalCenter"><img class="icon" src="../image/upload.png">&nbsp;上传文件
+                        </div>
                     </el-button>
-                    <el-button class="is-plain padding_5px" >
-                        <div class="flex flexVerticalCenter">  <img class="icon" src="../image/template.png"> &nbsp;我的模板库</div>
+                    <el-button class="is-plain padding_5px">
+                        <div class="flex flexVerticalCenter"><img class="icon" src="../image/template.png"> &nbsp;我的模板库
+                        </div>
                     </el-button>
                 </el-col>
 
@@ -46,134 +48,138 @@
             </el-row>
             <el-row class="contractContent">
                 <el-row gutter="20">
-                <el-col span="6">
-                    <el-card>
-                        <div class="imgContainer">
-                            <div class="Container">
-                                <img src="../image/contract.jpg"  @click="dialogVisible=true" class="image" >
+                    <el-col span="6">
+                        <el-card>
+                            <div class="imgContainer">
+                                <div class="Container">
+                                    <img src="../image/contract.jpg" @click="dialogVisible=true" class="image">
 
+                                </div>
                             </div>
-                        </div>
-                        <div class="middleBox">
-                            <div class="flex flexVerticalCenter">
-                                <div class="fontSmall">合同类型：</div>
-                                <div class="colorGrey fontSmall">买卖合同</div>
+                            <div class="middleBox">
+                                <div class="flex flexVerticalCenter">
+                                    <div class="fontSmall">合同类型：</div>
+                                    <div class="colorGrey fontSmall">买卖合同</div>
+                                    <div class="flexGrow"></div>
+                                    <div class="fontSmall">使用次数:</div>
+                                    <div class="colorGrey fontSmall">&nbsp;12次</div>
+                                </div>
+                                <div class="flex marginTop_10px fontSmall">
+                                    合同介绍：
+                                    <div class="colorGrey">XXXXXXX</div>
+                                </div>
+                            </div>
+                            <div class="downBox flex">
+                                <a @click="edit"><img src="../image/edit.png" class="icon"/></a>
+
+                                <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon"/></a>
                                 <div class="flexGrow"></div>
-                                <div class="fontSmall">使用次数:</div>
-                                <div class="colorGrey fontSmall">&nbsp;12次</div>
-                            </div>
-                            <div class="flex marginTop_10px fontSmall">
-                                合同介绍：
-                                <div class="colorGrey">XXXXXXX</div>
-                            </div>
-                        </div>
-                        <div class="downBox flex">
-                            <a href=""><img src="../image/edit.png" class="icon"/></a>
-                            <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon"/></a>
-                            <div class="flexGrow"></div>
-                            <div class="fontSmall">更新时间: &nbsp;</div>
-                            <div class="fontSmall colorGrey">XXXX</div>
+                                <div class="fontSmall">更新时间: &nbsp;</div>
+                                <div class="fontSmall colorGrey">XXXX</div>
 
-                        </div>
-                    </el-card>
-                </el-col>
-                <el-col span="6">
-                    <el-card>
-                        <div class="imgContainer">
-                            <div class="Container">
-                                <img src="../image/contract.jpg"  @click="dialogVisible=true" class="image" >
                             </div>
-                        </div>
-                        <div class="middleBox">
-                            <div class="flex flexVerticalCenter">
-                                <div class="fontSmall">合同类型：</div>
-                                <div class="colorGrey fontSmall">买卖合同</div>
+                        </el-card>
+                    </el-col>
+                    <el-col span="6">
+                        <el-card>
+                            <div class="imgContainer">
+                                <div class="Container">
+                                    <img src="../image/contract.jpg" @click="dialogVisible=true" class="image">
+                                </div>
+                            </div>
+                            <div class="middleBox">
+                                <div class="flex flexVerticalCenter">
+                                    <div class="fontSmall">合同类型：</div>
+                                    <div class="colorGrey fontSmall">买卖合同</div>
+                                    <div class="flexGrow"></div>
+                                    <div class="fontSmall">使用次数:</div>
+                                    <div class="colorGrey fontSmall">&nbsp;12次</div>
+                                </div>
+                                <div class="flex marginTop_10px fontSmall">
+                                    合同介绍：
+                                    <div class="colorGrey">XXXXXXX</div>
+                                </div>
+                            </div>
+                            <div class="downBox flex">
+                                <a @click="edit"><img src="../image/edit.png" class="icon"/></a>
+
+                                <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon"/></a>
                                 <div class="flexGrow"></div>
-                                <div class="fontSmall">使用次数:</div>
-                                <div class="colorGrey fontSmall">&nbsp;12次</div>
-                            </div>
-                            <div class="flex marginTop_10px fontSmall">
-                                合同介绍：
-                                <div class="colorGrey">XXXXXXX</div>
-                            </div>
-                        </div>
-                        <div class="downBox flex">
-                            <a href=""><img src="../image/edit.png" class="icon"/></a>
-                            <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon"/></a>
-                            <div class="flexGrow"></div>
-                            <div class="fontSmall">更新时间: &nbsp;</div>
-                            <div class="fontSmall colorGrey">XXXX</div>
+                                <div class="fontSmall">更新时间: &nbsp;</div>
+                                <div class="fontSmall colorGrey">XXXX</div>
 
-                        </div>
-                    </el-card>
-                </el-col>
-                <el-col span="6">
-                    <el-card>
-                        <div class="imgContainer">
-                            <div class="Container">
-                                <img src="../image/contract.jpg"  @click="dialogVisible=true" class="image" >
                             </div>
-                        </div>
-                        <div class="middleBox">
-                            <div class="flex flexVerticalCenter">
-                                <div class="fontSmall">合同类型：</div>
-                                <div class="colorGrey fontSmall">买卖合同</div>
+                        </el-card>
+                    </el-col>
+                    <el-col span="6">
+                        <el-card>
+                            <div class="imgContainer">
+                                <div class="Container">
+                                    <img src="../image/contract.jpg" @click="dialogVisible=true" class="image">
+                                </div>
+                            </div>
+                            <div class="middleBox">
+                                <div class="flex flexVerticalCenter">
+                                    <div class="fontSmall">合同类型：</div>
+                                    <div class="colorGrey fontSmall">买卖合同</div>
+                                    <div class="flexGrow"></div>
+                                    <div class="fontSmall">使用次数:</div>
+                                    <div class="colorGrey fontSmall">&nbsp;12次</div>
+                                </div>
+                                <div class="flex marginTop_10px fontSmall">
+                                    合同介绍：
+                                    <div class="colorGrey">XXXXXXX</div>
+                                </div>
+                            </div>
+                            <div class="downBox flex">
+                                <a @click="edit"><img src="../image/edit.png" class="icon"/></a>
+
+                                <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon"/></a>
                                 <div class="flexGrow"></div>
-                                <div class="fontSmall">使用次数:</div>
-                                <div class="colorGrey fontSmall">&nbsp;12次</div>
-                            </div>
-                            <div class="flex marginTop_10px fontSmall">
-                                合同介绍：
-                                <div class="colorGrey">XXXXXXX</div>
-                            </div>
-                        </div>
-                        <div class="downBox flex">
-                            <a href=""><img src="../image/edit.png" class="icon"/></a>
-                            <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon"/></a>
-                            <div class="flexGrow"></div>
-                            <div class="fontSmall">更新时间: &nbsp;</div>
-                            <div class="fontSmall colorGrey">XXXX</div>
+                                <div class="fontSmall">更新时间: &nbsp;</div>
+                                <div class="fontSmall colorGrey">XXXX</div>
 
-                        </div>
-                    </el-card>
-                </el-col>
-                <el-col span="6">
-                    <el-card>
-                        <div class="imgContainer">
-                            <div class="Container">
-                                <img src="../image/contract.jpg"  @click="dialogVisible=true" class="image" >
                             </div>
-                        </div>
-                        <div class="middleBox">
-                            <div class="flex flexVerticalCenter">
-                                <div class="fontSmall">合同类型：</div>
-                                <div class="colorGrey fontSmall">买卖合同</div>
+                        </el-card>
+                    </el-col>
+                    <el-col span="6">
+                        <el-card>
+                            <div class="imgContainer">
+                                <div class="Container">
+                                    <img src="../image/contract.jpg" @click="dialogVisible=true" class="image">
+                                </div>
+                            </div>
+                            <div class="middleBox">
+                                <div class="flex flexVerticalCenter">
+                                    <div class="fontSmall">合同类型：</div>
+                                    <div class="colorGrey fontSmall">买卖合同</div>
+                                    <div class="flexGrow"></div>
+                                    <div class="fontSmall">使用次数:</div>
+                                    <div class="colorGrey fontSmall">&nbsp;12次</div>
+                                </div>
+                                <div class="flex marginTop_10px fontSmall">
+                                    合同介绍：
+                                    <div class="colorGrey">XXXXXXX</div>
+                                </div>
+                            </div>
+                            <div class="downBox flex">
+                                <a @click="edit"><img src="../image/edit.png" class="icon"/></a>
+
+                                <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon"/></a>
                                 <div class="flexGrow"></div>
-                                <div class="fontSmall">使用次数:</div>
-                                <div class="colorGrey fontSmall">&nbsp;12次</div>
-                            </div>
-                            <div class="flex marginTop_10px fontSmall">
-                                合同介绍：
-                                <div class="colorGrey">XXXXXXX</div>
-                            </div>
-                        </div>
-                        <div class="downBox flex">
-                            <a href=""><img src="../image/edit.png" class="icon"/></a>
-                            <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon"/></a>
-                            <div class="flexGrow"></div>
-                            <div class="fontSmall">更新时间: &nbsp;</div>
-                            <div class="fontSmall colorGrey">XXXX</div>
+                                <div class="fontSmall">更新时间: &nbsp;</div>
+                                <div class="fontSmall colorGrey">XXXX</div>
 
-                        </div>
-                    </el-card>
-                </el-col>
-            </el-row>
+                            </div>
+                        </el-card>
+                    </el-col>
+                </el-row>
                 <el-row gutter="20" class="marginTop_15px">
                     <el-col span="6">
                         <el-card>
                             <div class="imgContainer">
                                 <div class="Container">
-                                    <img src="../image/contract.jpg"  @click="dialogVisible=true" class="image" >
+                                    <img src="../image/contract.jpg" @click="dialogVisible=true" class="image">
                                 </div>
                             </div>
                             <div class="middleBox">
@@ -190,7 +196,8 @@
                                 </div>
                             </div>
                             <div class="downBox flex">
-                                <a href=""><img src="../image/edit.png" class="icon"/></a>
+                                <a @click="edit"><img src="../image/edit.png" class="icon"/></a>
+
                                 <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon"/></a>
                                 <div class="flexGrow"></div>
                                 <div class="fontSmall">更新时间: &nbsp;</div>
@@ -220,7 +227,8 @@
                                 </div>
                             </div>
                             <div class="downBox flex">
-                                <a href=""><img src="../image/edit.png" class="icon"/></a>
+                                <a @click="edit"><img src="../image/edit.png" class="icon"/></a>
+
                                 <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon"/></a>
                                 <div class="flexGrow"></div>
                                 <div class="fontSmall">更新时间: &nbsp;</div>
@@ -233,7 +241,7 @@
                         <el-card>
                             <div class="imgContainer">
                                 <div class="Container">
-                                    <img src="../image/contract.jpg"  @click="dialogVisible = true" class="image">
+                                    <img src="../image/contract.jpg" @click="dialogVisible = true" class="image">
                                 </div>
                             </div>
                             <div class="middleBox">
@@ -250,7 +258,8 @@
                                 </div>
                             </div>
                             <div class="downBox flex">
-                                <a href=""><img src="../image/edit.png" class="icon"/></a>
+                                <a @click="edit"><img src="../image/edit.png" class="icon"/></a>
+
                                 <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon"/></a>
                                 <div class="flexGrow"></div>
                                 <div class="fontSmall">更新时间: &nbsp;</div>
@@ -280,8 +289,8 @@
                                 </div>
                             </div>
                             <div class="downBox flex">
-                                <a href=""><img src="../image/edit.png" class="icon"/></a>
-                                <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon" /></a>
+                                <a @click="edit"><img src="../image/edit.png" class="icon"/></a>
+                                <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon"/></a>
                                 <div class="flexGrow"></div>
                                 <div class="fontBig">更新时间:XXXX</div>
 
@@ -292,7 +301,7 @@
             </el-row>
         </div>
         <el-row type="flex" justify="center">
-            <div class="flex flexVerticalCenter fontSmall">共6259条</div>
+            <div class="flex flexVerticalCenter fontSmall">共629条</div>
             <div class="block">
                 <el-pagination
                     layout="prev, pager, next"
@@ -303,11 +312,20 @@
         <el-dialog
             title="合同预览"
             :visible.sync="dialogVisible"
-            width="50%"
             :show-close='false'
             :fullscreen="true"
             :before-close="handleClose">
             <img src="../image/contract.jpg" alt="" style="width: 100%">
+            <div class="icon-left">
+                <div class="container ">
+                    <img src="../image/left.png" class="icon"></img>
+                </div>
+            </div>
+            <div class="icon-right">
+                <div class="container ">
+                    <img src="../image/right.png" class="icon"></img>
+                </div>
+            </div>
             <span slot="footer" class="dialog-footer">
                     <el-button type="primary" @click="dialogVisible = false">确 定</el-button>
                 </span>
@@ -328,6 +346,11 @@
                 currentDate: new Date(),
                 dialogVisible: false
             };
+        },
+        methods: {
+            edit(){
+                this.$router.push({path: '/vueEdit'})
+            }
         }
     }
 </script>

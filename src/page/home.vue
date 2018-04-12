@@ -69,6 +69,16 @@
                         </el-row>
                     </div>
                 </el-card>
+                <div class="QRBox flex">
+                    <img src="../image/FisrtQRcode.png" class="QRcode" alt="">
+                    <div class="describe">
+                        <div class="up colorGrey flex flexVerticalCenter">
+                            <img src="../image/phone.png" class="icon" alt="">下载App
+                        </div>
+                        <div class="flexGrow"></div>
+                        <div class="down">APP可以快捷认证，随时随地签署文件，更快捷，更安全</div>
+                    </div>
+                </div>
             </el-col>
             <el-col span="12">
                 <el-card class="box-card">
@@ -104,8 +114,24 @@
 
                     </div>
                 </el-card>
+                <div class="QRBox flex marginTop_28px">
+                    <img src="../image/SecondQRcode.png" class="QRcode" alt="">
+                    <div class="describe">
+                        <div class="up colorGrey flex flexVerticalCenter">
+                            <img src="../image/wechat.png" class="icon" alt="">关注微信公众号
+                        </div>
+                        <div class="flexGrow"></div>
+                        <div class="down">随时了解律兜咨询，还可以在线签署文件哦</div>
+                    </div>
+                </div>
             </el-col>
+            <el-col span="12" class="marginRight_-1px">
+
+            </el-col>
+
         </el-row>
+
+
     </div>
 </template>
 
