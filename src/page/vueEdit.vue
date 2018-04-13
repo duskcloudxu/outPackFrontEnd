@@ -194,7 +194,7 @@
     }
 
     .editer {
-        height: 600px;
+        height: 690px;
         border: none;
     }
 

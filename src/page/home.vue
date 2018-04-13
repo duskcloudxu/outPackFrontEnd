@@ -69,7 +69,7 @@
                         </el-row>
                     </div>
                 </el-card>
-                <div class="QRBox flex marginLeft_80px">
+                <div class="QRBox flex">
                     <img src="../image/FisrtQRcode.png" class="QRcode " alt="">
                     <div class="describe">
                         <div class="up colorGrey flex flexVerticalCenter">
