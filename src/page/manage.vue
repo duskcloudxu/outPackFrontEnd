@@ -6,7 +6,7 @@
 					<el-menu-item index="manage"><i class="el-icon-menu"></i>首页</el-menu-item>
 					<el-submenu index="2">
 						<template slot="title"><i class="el-icon-document"></i>合同模板</template>
-						<el-menu-item index="userList">模板库</el-menu-item>
+						<el-menu-item index="document">模板库</el-menu-item>
 						<el-menu-item index="shopList">我的模板</el-menu-item>
 						<el-menu-item index="foodList">委托起草</el-menu-item>
 					</el-submenu>

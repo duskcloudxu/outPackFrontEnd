@@ -42,7 +42,7 @@
                 <el-radio-group v-model="tabPosition" style="margin-bottom: 30px;">
                     <el-radio-button label="top">模板名称</el-radio-button>
                     <el-radio-button label="right">合同类型</el-radio-button>
-                    <el-radio-button label="bottom">更新时间</el-radio-button>
+                    <el-radio-button label="bottom">行业分类</el-radio-button>
                     <el-radio-button label="left">使用次数</el-radio-button>
                 </el-radio-group>
             </el-row>
@@ -74,7 +74,7 @@
 
                                 <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon"/></a>
                                 <div class="flexGrow"></div>
-                                <div class="fontSmall">更新时间: &nbsp;</div>
+                                <div class="fontSmall">行业分类: &nbsp;</div>
                                 <div class="fontSmall colorGrey">XXXX</div>
 
                             </div>
@@ -105,7 +105,7 @@
 
                                 <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon"/></a>
                                 <div class="flexGrow"></div>
-                                <div class="fontSmall">更新时间: &nbsp;</div>
+                                <div class="fontSmall">行业分类: &nbsp;</div>
                                 <div class="fontSmall colorGrey">XXXX</div>
 
                             </div>
@@ -136,7 +136,7 @@
 
                                 <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon"/></a>
                                 <div class="flexGrow"></div>
-                                <div class="fontSmall">更新时间: &nbsp;</div>
+                                <div class="fontSmall">行业分类: &nbsp;</div>
                                 <div class="fontSmall colorGrey">XXXX</div>
 
                             </div>
@@ -167,7 +167,7 @@
 
                                 <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon"/></a>
                                 <div class="flexGrow"></div>
-                                <div class="fontSmall">更新时间: &nbsp;</div>
+                                <div class="fontSmall">行业分类: &nbsp;</div>
                                 <div class="fontSmall colorGrey">XXXX</div>
 
                             </div>
@@ -200,7 +200,7 @@
 
                                 <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon"/></a>
                                 <div class="flexGrow"></div>
-                                <div class="fontSmall">更新时间: &nbsp;</div>
+                                <div class="fontSmall">行业分类: &nbsp;</div>
                                 <div class="fontSmall colorGrey">XXXX</div>
 
                             </div>
@@ -231,7 +231,7 @@
 
                                 <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon"/></a>
                                 <div class="flexGrow"></div>
-                                <div class="fontSmall">更新时间: &nbsp;</div>
+                                <div class="fontSmall">行业分类: &nbsp;</div>
                                 <div class="fontSmall colorGrey">XXXX</div>
 
                             </div>
@@ -262,7 +262,7 @@
 
                                 <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon"/></a>
                                 <div class="flexGrow"></div>
-                                <div class="fontSmall">更新时间: &nbsp;</div>
+                                <div class="fontSmall">行业分类: &nbsp;</div>
                                 <div class="fontSmall colorGrey">XXXX</div>
 
                             </div>
@@ -290,9 +290,11 @@
                             </div>
                             <div class="downBox flex">
                                 <a @click="edit"><img src="../image/edit.png" class="icon"/></a>
+
                                 <a href="" class="marginLeft_15px "><img src="../image/download.png" class="icon"/></a>
                                 <div class="flexGrow"></div>
-                                <div class="fontBig">更新时间:XXXX</div>
+                                <div class="fontSmall">行业分类: &nbsp;</div>
+                                <div class="fontSmall colorGrey">XXXX</div>
 
                             </div>
                         </el-card>
