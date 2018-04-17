@@ -22,7 +22,7 @@
                     <el-row>
                         <el-icon class="el-icon-document colorBlue"></el-icon>
                     </el-row>
-                    <el-row class="number">7</el-row>
+                    <el-row class="number">2</el-row>
 
                     <el-row class="properFont colorGrey">草稿箱</el-row>
                 </el-col>
@@ -30,7 +30,7 @@
                     <el-row>
                         <el-icon class="el-icon-check colorGrey"></el-icon>
                     </el-row>
-                    <el-row class="number">7</el-row>
+                    <el-row class="number">135</el-row>
                     <el-row class="properFont colorGrey">已完成</el-row>
                 </el-col>
             </el-row>
