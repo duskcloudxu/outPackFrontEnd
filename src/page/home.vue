@@ -7,14 +7,14 @@
                     <el-row>
                         <el-icon class="el-icon-edit colorRed"></el-icon>
                     </el-row>
-                    <el-row class="number">-</el-row>
+                    <el-row class="number">7</el-row>
                     <el-row class="properFont colorGrey">待我签</el-row>
                 </el-col>
                 <el-col :span="6">
                     <el-row>
                         <el-icon class="el-icon-time colorYellow"></el-icon>
                     </el-row>
-                    <el-row class="number">-</el-row>
+                    <el-row class="number">7</el-row>
 
                     <el-row class="properFont colorGrey">待他人签</el-row>
                 </el-col>
@@ -22,7 +22,7 @@
                     <el-row>
                         <el-icon class="el-icon-document colorBlue"></el-icon>
                     </el-row>
-                    <el-row class="number">-</el-row>
+                    <el-row class="number">7</el-row>
 
                     <el-row class="properFont colorGrey">草稿箱</el-row>
                 </el-col>
@@ -30,7 +30,7 @@
                     <el-row>
                         <el-icon class="el-icon-check colorGrey"></el-icon>
                     </el-row>
-                    <el-row class="number">-</el-row>
+                    <el-row class="number">7</el-row>
                     <el-row class="properFont colorGrey">已完成</el-row>
                 </el-col>
             </el-row>
